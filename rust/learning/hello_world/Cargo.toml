@@ -1,0 +1,15 @@
+[package]
+
+name = "hello_world"
+version = "0.0.1"
+authors = ["Jonathan Almeida <me@jonalmeida.com>"]
+
+[[bin]]
+
+name = "hello_world"
+
+[dependencies.rustful]
+git = "https://github.com/Ogeon/rustful"
+
+[dependencies.rustful_macros]
+git = "https://github.com/Ogeon/rustful"

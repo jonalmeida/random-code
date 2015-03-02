@@ -1,0 +1,26 @@
+[root]
+name = "mytestdb"
+version = "0.0.1"
+dependencies = [
+ "txtdb 0.0.1 (git+https://github.com/jonalmeida/txtdb.git)",
+]
+
+[[package]]
+name = "log"
+version = "0.2.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "rustc-serialize"
+version = "0.2.13"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "txtdb"
+version = "0.0.1"
+source = "git+https://github.com/jonalmeida/txtdb.git#67c828a9df38b9ab643391f6df207e371e137019"
+dependencies = [
+ "log 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
+ "rustc-serialize 0.2.13 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+

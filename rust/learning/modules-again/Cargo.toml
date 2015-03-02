@@ -1,0 +1,5 @@
+[package]
+
+name = "modules-again"
+version = "0.0.1"
+authors = ["Jonathan Almeida <git@jonalmeida.com>"]

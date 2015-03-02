@@ -1,0 +1,4 @@
+[root]
+name = "rwlock"
+version = "0.0.1"
+

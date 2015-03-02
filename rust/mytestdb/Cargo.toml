@@ -1,0 +1,9 @@
+[package]
+
+name = "mytestdb"
+version = "0.0.1"
+authors = ["Jonathan Almeida <git@jonalmeida.com>"]
+
+[dependencies.txtdb]
+
+git = "https://github.com/jonalmeida/txtdb.git"

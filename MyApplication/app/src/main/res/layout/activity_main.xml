@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Activity"
+        android:id="@+id/buttonNewActivity"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hello_world" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Text"
+        android:id="@+id/buttonChangeText"
+        android:layout_below="@+id/buttonNewActivity"
+        android:layout_alignLeft="@+id/buttonNewActivity"
+        android:layout_alignStart="@+id/buttonNewActivity" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_below="@+id/buttonChangeText"
+        android:layout_alignRight="@+id/buttonChangeText"
+        android:layout_alignEnd="@+id/buttonChangeText"
+        android:layout_alignLeft="@+id/buttonChangeText"
+        android:layout_alignStart="@+id/buttonChangeText"
+        android:text="Foo" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Pager"
+        android:id="@+id/buttonViewPager"
+        android:layout_alignTop="@+id/buttonNewActivity"
+        android:layout_toRightOf="@+id/buttonNewActivity"
+        android:layout_toEndOf="@+id/buttonNewActivity" />
+
+
+</RelativeLayout>
